@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-div>h1 {
+    width: 25rem;
+    padding: 2rem 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .clock-div {
+    width: 25rem;
+    text-align: center;
+    border: 2px solid #dceaff;
+  }
+
+  .clock-div>h2 {
+    display: inline-block;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .clock-texts-2 {
+    width: 20px;
+    display: inline;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
